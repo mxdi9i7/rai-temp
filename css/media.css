@@ -1,0 +1,232 @@
+@media screen and (max-width: 1440px) {
+  .rai {
+    margin-top: 20%;
+    font-size: 2rem;
+  }
+
+  .polkadot {
+    top: 75%;
+  }
+
+  @keyframes section1Text {
+    from {
+      bottom: 40%;
+      opacity: 0;
+    }
+    to {
+      bottom: 30%;
+      opacity: 1;
+    }
+  }
+  .section2-text {
+    font-size: 0.8rem;
+    top: 42%;
+  }
+
+  .features1 {
+    width: 80%;
+  }
+
+  .section4 li {
+  }
+
+  .section3 h2, .section5 h2 {
+    top: 15%;
+  }
+
+  .section3 li {
+  }
+
+  .section5 li {
+    height: 500px;
+  }
+  .section6 li {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .rai {
+    bottom: 20%;
+    font-size: 2rem;
+  }
+
+  @keyframes section1Text {
+    from {
+      bottom: 50%;
+      opacity: 0;
+    }
+    to {
+      bottom: 40%;
+      opacity: 1;
+    }
+  }
+  .section6 li {
+    width: 50%;
+    height: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section2-text {
+    font-size: 0.7rem;
+    top: 30%;
+  }
+
+  .section h2 {
+    margin-bottom: 0.6rem;
+    font-size: 0.54rem;
+  }
+
+  .section3 li, .section5 li, .section6 li {
+    width: 100%;
+    padding: 0.3rem 5%;
+    height: auto;
+  }
+
+  .section3 {
+    height: auto;
+  }
+
+  .section5 {
+    height: auto;
+  }
+
+  .section3 li .group, .section5 li .group, .section6 li .group {
+    float: left;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .section3 li h3, .section5 li h3, .section6 li h3 {
+    font-size: 0.35rem;
+    float: left;
+    margin-bottom: 0;
+    width: 78%;
+    text-align: left;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .section5 h3,
+  .section6 h3 {
+    font-size: 0.35rem;
+  }
+
+  .section3 li p, .section5 li p {
+    clear: both;
+  }
+
+  .features1 {
+    width: 100%;
+  }
+
+  .features2 {
+    width: 100%;
+    opacity: 0.2;
+  }
+
+  .section3 h2, .section5 h2 {
+    position: relative;
+    top: auto;
+  }
+
+  .section3 ul, .section5 ul {
+    position: relative;
+    height: auto;
+  }
+
+  .section p {
+    font-size: 0.3rem;
+  }
+
+  .section4 {
+  }
+
+  .section4 h3 {
+    font-size: 0.35rem;
+  }
+
+  .section7 h3 {
+    font-size: 0.4rem;
+  }
+
+  .section7 li {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3rem;
+  }
+
+  .section8 li {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3rem;
+  }
+
+  .section8 h3 {
+    font-size: 0.4rem;
+  }
+
+  .section8 .group {
+    width: 60%;
+  }
+
+  .section5 p {
+    text-align: left;
+  }
+
+  .section6 p {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header1 {
+    display: none;
+  }
+
+  .rai {
+    font-size: 1.5rem;
+    margin-top: 25%;
+  }
+
+  .section2-text {
+    top: 25%;
+  }
+
+  .polkadot {
+    top: 66%;
+  }
+
+  .section h2 {
+    margin-bottom: 0.3rem;
+  }
+
+  .polkadot img {
+    height: 0.4rem;
+  }
+
+  .fp-viewing-section2 .header {
+    opacity: 1;
+  }
+
+  .fp-viewing-section3 .header, .fp-viewing-Features .header, .fp-viewing-OMS .header, .fp-viewing-5 .header {
+    opacity: 1;
+  }
+
+  .social-media li {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+
+  .social-media li i {
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
+@media screen and (max-height: 850px) {}
